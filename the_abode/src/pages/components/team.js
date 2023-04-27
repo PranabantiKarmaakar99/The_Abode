@@ -48,18 +48,21 @@ export default class PreviousNextMethods extends Component {
               <div key={1} className="w-4/5 flex items-center justify-center ">
                 <Image
                   src={IMG2}
+                  alt="image"
                   className=" flex items-center justify-center "
                 />
               </div>
               <div key={2} className="w-4/5 flex items-center justify-center ">
                 <Image
                   src={IMG3}
+                  alt="image"
                   className=" flex items-center justify-center"
                 />
               </div>
               <div key={3} className="w-4/5 flex items-center justify-center ">
                 <Image
                   src={IMG4}
+                  alt="image"
                   className=" flex items-center justify-center"
                 />
               </div>
