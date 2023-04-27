@@ -11,7 +11,7 @@ export default function Home() {
 <Navbar />
 <Introduction />
 <Form />
-{/* <About /> */}
+
 <Footer />
 
 
