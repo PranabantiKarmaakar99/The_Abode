@@ -3,6 +3,7 @@ import Introduction from "./components/introduction";
 import Footer from "./components/footer";
 import Form from "./components/form";
 import About from "./components/about";
+import Team from "./components/team"
 
 
 export default function Home() {
@@ -10,7 +11,9 @@ export default function Home() {
    <div>
 <Navbar />
 <Introduction />
+
 <Form />
+<Team />
 
 <Footer />
 

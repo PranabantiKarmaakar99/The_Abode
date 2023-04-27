@@ -1,10 +1,21 @@
 /** @type {import('tailwindcss').Config} */
+import plugin from 'tailwindcss';
+
+
+
+
 module.exports = {
+  mode:"jit",
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
+  plugins: [
+    require('@tailwindcss/forms'),
+    // ...
+  ],
+ 
   theme: {
     extend: {
       backgroundImage: {
@@ -12,6 +23,23 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      colors: {
+        
+        warmGray: {
+          50: '#fafaf9',
+          100: '#f5f5f4',
+          200: '#e7e5e4',
+          300: '#d6d3d1',
+          400: '#a8a29e',
+          500: '#78716c',
+          600: '#57534e',
+          700: '#44403c',
+          800: '#292524',
+          900: '#1c1917',
+        },
+        
+      },
+
     },
   },
   plugins: [],

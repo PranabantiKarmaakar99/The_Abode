@@ -6,28 +6,42 @@ import IMG1 from "./images_home/image9.png";
 const Home = () => {
   return (
     <div id="introduction">
-      <div className="container h-screen bg-pink-300">
-        <div className=" h-2/3 bg-green-400 relative" >
-        
+      <div className="container h-[calc(100vh-3.5rem)] mt-14">
+        <div className=" h-2/3 bg-green-400 relative">
           <Image
             className="h-full object-cover "
             src={IMG1}
             alt="background_image"
           />
-           <div className="absolute inset-0 bg-gradient-to-b from-black to-transparent "></div>
+          <div className="absolute inset-0 bg-gradient-to-b from-black to-transparent "></div>
           <div className="absolute top-0 left-0 right-0 bottom-0 flex flex-col items-center justify-center">
-            <p className="text-xl text-white w-4/5  mt-7 text-center font-semibold" >We are your <span className="text-red-500">interior design partner</span> who helps to turn your <span className="text-red-500">idea into reality.</span></p>
-            <div className='mb-4 mt-auto flex items-center w-full justify-center'><button className = " w-4/5 rounded-full bg-yellow-400 px-5 py-3 text-white align-middle text-xs" >GET FREE CONSULTATION</button></div>
+            <p className="text-xl text-white w-4/5  mt-7 text-center font-semibold">
+              We are your{" "}
+              <span className="text-red-500">interior design partner</span> who
+              helps to turn your{" "}
+              <span className="text-red-500">idea into reality.</span>
+            </p>
+            <div className="mb-4 mt-auto flex items-center w-full justify-center">
+              <button className=" w-4/5 rounded-full bg-yellow-400 px-5 py-3 text-white align-middle text-xs">
+                GET FREE CONSULTATION
+              </button>
+            </div>
           </div>
         </div>
 
         {/* why abode  */}
-        <div className=" h-1/3 "> 
-        
-        <div className=" h-2/3 w-4/5 bg-gray-400 items-center justify-center"> </div>
-        
+        <div className=" h-1/3 flex justify-center ">
+          <div className=" h-3/4 w-4/5 bg-stone-100 rounded-lg my-auto grid grid-cols-3 gap-x-3 gap-y-5 p-4 drop-shadow">
+            <div className="text-xs  text-center items-center text-red-400 ">100+ <br></br> Happy Homes</div>
+            <div className="text-xs  text-center items-center font-semibold text-stone-500 ">Best in Class Design</div>
+            <div className="text-xs  text-center items-center  text-red-400">Best Quality Assured</div>
+            <div className="text-xs  text-center items-center  text-red-400">Fastest Delivery</div>
+            <div className="text-xs  text-center items-center font-semibold text-stone-500 ">Budget Friendly</div>
+            <div className="text-xs  text-center items-center   text-red-400">Best in Class Design</div>
+          
+           
+          </div>
         </div>
-        
       </div>
     </div>
   );

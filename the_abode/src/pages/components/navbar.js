@@ -4,7 +4,7 @@ import Logo from "./images_home/logo/LOGO - PNG-THE ABODE.png";
 
 const navbar = () => {
   return (
-    <div className=" h-14  flex ">
+    <div className=" h-14 shadow-md flex fixed w-full top-0 left-0 z-10 bg-white ">
       <div className=" text-gray-800 mr-auto ml-4 flex items-center">
         <div className="flex">
           <Image
