@@ -20,7 +20,7 @@ const Form = () => {
 
   return (
 
-    <div id = "form" className= "h-[calc(100vh-3.5rem)]  my-auto rounded-md ">
+    <div id = "form" className= " h-max  my-auto rounded-md ">
     <div className='h-4/5'>
     <div className='flex items-center justify-center font-semibold text-lg pt-6 mb-5 text-neutral-600'>We Design for your Budget</div>
     <form onSubmit={handleSubmit} className="p-4 space-y-4 mx-2 rounded-md shadow-md bg-stone-100">
@@ -59,7 +59,7 @@ const Form = () => {
 
     </div>
 
-    <div className='bg-yellow-300 h-1/5'> </div>
+    {/* <div className='bg-yellow-300 h-1/5'> </div> */}
     </div>
   )
 }

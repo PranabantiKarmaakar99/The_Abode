@@ -3,7 +3,13 @@ import Introduction from "./components/introduction";
 import Footer from "./components/footer";
 import Form from "./components/form";
 import About from "./components/about";
-import Team from "./components/team"
+import Design from "./components/Design Inspiration"
+import Team from "./components/Team";
+import Process from "./components/Abode_booking_Process";
+import Abode_booking_Process from "./components/Abode_booking_Process";
+import Testimonial from "./components/Testimonial"
+import Services from "./components/services"
+import Payment_Process from "./components/Payment_Process"
 
 
 export default function Home() {
@@ -14,6 +20,14 @@ export default function Home() {
 
 <Form />
 <Team />
+
+<Abode_booking_Process />
+
+<Design />
+
+<Services />
+<Testimonial />
+{/* <Payment_Process /> */}
 
 <Footer />
 

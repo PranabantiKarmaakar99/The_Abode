@@ -22,8 +22,8 @@ const Home = () => {
               <span className="text-red-500">idea into reality.</span>
             </p>
             <div className="mb-4 mt-auto flex items-center w-full justify-center">
-              <button className=" w-4/5 rounded-full bg-yellow-400 px-5 py-3 text-white align-middle text-xs">
-                GET FREE CONSULTATION
+              <button className=" w-4/5 rounded-full bg-yellow-400 px-5 py-3 text-white align-middle text-sm">
+                START YOUR DESIGN
               </button>
             </div>
           </div>
@@ -31,13 +31,13 @@ const Home = () => {
 
         {/* why abode  */}
         <div className=" h-1/3 flex justify-center ">
-          <div className=" h-3/4 w-4/5 bg-stone-100 rounded-lg my-auto grid grid-cols-3 gap-x-3 gap-y-5 p-4 drop-shadow">
-            <div className="text-xs  text-center items-center text-red-400 ">100+ <br></br> Happy Homes</div>
-            <div className="text-xs  text-center items-center font-semibold text-stone-500 ">Best in Class Design</div>
-            <div className="text-xs  text-center items-center  text-red-400">Best Quality Assured</div>
-            <div className="text-xs  text-center items-center  text-red-400">Fastest Delivery</div>
-            <div className="text-xs  text-center items-center font-semibold text-stone-500 ">Budget Friendly</div>
-            <div className="text-xs  text-center items-center   text-red-400">Best in Class Design</div>
+          <div className=" h-3/4 w-4/5 bg-stone-100 rounded-lg my-auto grid grid-cols-3    drop-shadow">
+            <div className="text-xs  text-center items-center  bg-stone-100 text-stone-400 ">100+ <br></br> Happy Homes</div>
+            <div className="text-xs  text-center items-center  font-semibold  bg-stone-300 text-stone-600 ">Best in Class Design</div>
+            <div className="text-xs  text-center items-center   bg-stone-100 text-black-400">Best Quality Assured</div>
+            <div className="text-xs  text-center items-center   bg-stone-300 text-black-400">Fastest Delivery</div>
+            <div className="text-xs  text-center items-center  bg-stone-100 font-semibold text-stone-500 ">Budget Friendly</div>
+            <div className="text-xs  text-center items-center   bg-stone-300  text-black-400">Best in Class Design</div>
           
            
           </div>
