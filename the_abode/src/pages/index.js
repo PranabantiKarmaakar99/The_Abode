@@ -4,7 +4,7 @@ import Footer from "./components/footer";
 import Form from "./components/form";
 import About from "./components/about";
 import Design from "./components/Design Inspiration"
-import Team from "./components/Team";
+import Teammembers from "./components/Teammembers";
 import Process from "./components/Abode_booking_Process";
 import Abode_booking_Process from "./components/Abode_booking_Process";
 import Testimonial from "./components/Testimonial"
@@ -19,7 +19,7 @@ export default function Home() {
 <Introduction />
 
 <Form />
-<Team />
+<Teammembers />
 
 <Abode_booking_Process />
 
