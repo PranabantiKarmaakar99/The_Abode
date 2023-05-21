@@ -26,7 +26,7 @@ const Payment_Process = () => {
 
     <div className="w-3/4 grid grid-cols-3 gap-5 text-black text-xs">
    { IMAGE.map((el,index) => (
-    <div className='flex flex-col items-center  w-[100px]'>
+    <div className='flex flex-col items-center  w-[100px]' key={index}>
    
     <div className="bg-yellow-100 border-gray-500 border rounded-full shadow flex items-center justify-center w-[50px] h-[50px]" >
         <div className="text-center  flex flex-col items-center ">

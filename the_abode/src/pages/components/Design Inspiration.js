@@ -60,7 +60,7 @@ export default class PreviousNextMethods extends Component {
             {...settings}
         >
           {IMAGE.map((el,index) => (
-         <div key={el.index} className="w-4/5 flex items-center justify-center ">
+         <div key={index} className="w-4/5 flex items-center justify-center ">
               <Image
                 src={el.image}
                 alt="image"
