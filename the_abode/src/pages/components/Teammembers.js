@@ -15,8 +15,8 @@ import IMG6 from "../../../public/Teamimage/6.png";
 const Team = () => {
   return (
 
-    <div className='container h-100vh flex items-center justify-center flex-col'>
-     <div className='flex items-center justify-center font-semibold text-lg pt-6 h-1/6 my-5 text-neutral-600 '>Meet Our Team</div>
+    <div className='container h-max flex items-center flex-col mt-20 mb-5'>
+     <div className='flex  justify-center font-semibold text-lg pt-6 h-1/6 my-5 text-neutral-600 '>Meet Our Team</div>
     <div className='w-4/5 h-3/4 grid grid-cols-2 gap-1'>
 
   

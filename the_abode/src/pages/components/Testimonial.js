@@ -47,7 +47,7 @@ export default class PreviousNextMethods extends Component {
 
 
       return (
-        <div className="h-max w-full relative flex flex-col ">
+        <div className="h-max w-full relative flex flex-col mt-20 ">
         <div className="h-4/5 ">
           <div className=" my-10 flex items-center justify-center">
             <h2 className=" w-2/3 flex items-center justify-center text-lg font-semibold text-center">
@@ -76,8 +76,8 @@ export default class PreviousNextMethods extends Component {
                 <div className="w-full flex flex-col items-center justify-center my-5">
                   <h2 className="text-center text-lg font-semibold">{el.title}</h2>
                   <h5 className="w-2/3">
-                    <div className="text-3xl text-bold text-center my-3">“ </div>
-                   <div className="text-center"> {el.content}</div>
+                    <div className="text-3xl font-bold text-center my-3">“ </div>
+                   <div className="text-center text-sm"> {el.content}</div>
                     <div className="text-3xl font-bold text-center my-3">”</div>
                   </h5>
                 </div>

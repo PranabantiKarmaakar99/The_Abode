@@ -2,7 +2,7 @@ import Navbar from "./components/navbar";
 import Introduction from "./components/introduction";
 import Footer from "./components/footer";
 import Form from "./components/form";
-import About from "./components/about";
+
 import Design from "./components/Design Inspiration"
 import Teammembers from "./components/Teammembers";
 import Process from "./components/Abode_booking_Process";
@@ -27,7 +27,7 @@ export default function Home() {
 
 <Services />
 <Testimonial />
-{/* <Payment_Process /> */}
+<Payment_Process />
 
 <Footer />
 

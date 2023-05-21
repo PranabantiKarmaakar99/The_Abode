@@ -3,10 +3,10 @@ import React from 'react'
 const Abode_booking_Process = () => {
   return (
 
-    <div className="container h-screen flex flex-col items-center justify-center">
+    <div className="container h-max flex flex-col items-center justify-center mt-20">
      <div className="mb-5 w-full">
           
-          <div className="flex items-center justify-center mt-5 px-2 py-1 font-semibold text-sm  ">
+          <div className="flex items-center justify-center  px-2 py-1 font-semibold text-lg my-5  ">
     Your {" "} &nbsp;
     <span className="text-red-500">
       Dream Home 
