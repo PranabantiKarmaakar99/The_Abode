@@ -6,7 +6,7 @@ import IMG1 from "./images_home/image9.png";
 const Home = () => {
   return (
     <div id="introduction">
-      <div className="container h-screen mt-14 mb-20">
+      <div className="container h-screen mt-14 mb-14">
         <div className=" h-1/2 bg-green-400 relative">
           <Image
             className="h-full object-cover "
@@ -37,7 +37,7 @@ const Home = () => {
             </h2>
 
             </div>
-          <div className=" mx-6 bg-stone-100 rounded-lg my-auto grid grid-cols-3 text-sm   drop-shadow">
+          <div className=" mx-6 h-[175px] bg-stone-100 rounded-lg my-auto grid grid-cols-3 text-sm   drop-shadow">
             <div className=" p-1 text-center flex items-center justify-center  bg-stone-100 text-stone-400 ">100+ <br></br> Happy Homes</div>
             <div className=" p-1 text-center flex items-center justify-center    bg-stone-300 text-stone-600 ">Best in Class Design</div>
             <div className=" p-1 text-center flex items-center justify-center  bg-stone-100 text-black-400">Best Quality Assured</div>
