@@ -95,7 +95,9 @@ export default class PreviousNextMethods extends Component {
              <IoIosArrowBack />
             </button>
             <button
-              className="button mt-5   p-3 flex ml-72 rounded-full opacity-50"
+              className="button mt-5   p-3 flex  rounded-full opacity-50"
+              id="left-button"
+             
               onClick={this.next}
             >
                 <IoIosArrowForward />

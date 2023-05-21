@@ -13,16 +13,45 @@ import IMG6 from "../../../public/Teamimage/6.png";
 
 
 const Team = () => {
+  const IMAGE = [
+    { key:1,image: IMG1, title: "Ar. Mainak Dey", role: "Founder & Partner" },
+    { key:2,image: IMG2, title: "Ar. Rakesh Sarkar", role: "Partner" },
+    { key:3,image: IMG3, title: "Sujit Ghosh", role: "Partner" },
+    { key:4,image: IMG4, title: "Payel Samanta", role: "Design" },
+    { key:5,image: IMG5, title: "name", role: "designation" },
+    { key:6,image: IMG6, title: "name", role: "designation" },
+    { key:7,image: IMG1, title: "Koushik", role: "Site Engineer" },
+    { key:8,image: IMG2, title: "Toton", role: "Site Engineer" },
+    
+  ];
   return (
 
     <div className='container h-max flex items-center flex-col mt-20 mb-5'>
      <div className='flex  justify-center font-semibold text-lg pt-6 h-1/6 my-5 text-neutral-600 '>Meet Our Team</div>
-    <div className='w-4/5 h-3/4 grid grid-cols-2 gap-1'>
+    <div className='w-4/5 h-3/4 grid grid-cols-2 gap-5'>
 
   
 
+{IMAGE.map((el,index)=>{  
+  return  <div className=' flex flex-col items-center  text-center' key={index}>
+   
+   
+   
+   <Image src={el.image} alt="Team member" className='rounded-full p-2 h-[150px] w-[150px]'/>
 
-   <div className='relative flex'>
+  
+            <p className=" text-gray-700 w-4/5  mb text-md text-center">
+             {el.title}
+            </p>
+            <p className=" text-gray-500 w-4/5  mb-3 text-xs text-center">
+          {el.role}
+            </p>
+         
+         
+   
+   
+   </div> })}
+   {/* <div className='relative flex'>
    
    
    
@@ -166,7 +195,7 @@ const Team = () => {
           </div>
    
    
-   </div> 
+   </div>  */}
    
    
     

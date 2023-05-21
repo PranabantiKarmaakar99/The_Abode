@@ -5,3 +5,6 @@
 @tailwind utilities;
 
 
+#left-button {
+    margin-left:calc(100vw - 8px)
+}

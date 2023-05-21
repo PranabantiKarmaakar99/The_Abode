@@ -27,7 +27,7 @@ export default function Home() {
 
 <Services />
 <Testimonial />
-<Payment_Process />
+{/* <Payment_Process /> */}
 
 <Footer />
 

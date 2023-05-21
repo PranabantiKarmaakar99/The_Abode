@@ -35,7 +35,7 @@ const Form = () => {
       <div className="flex flex-col space-y-2">
        
         <div className="flex space-x-2">
-          <input type="text" id="countryCode" name="countryCode" value={countryCode} onChange={(e) => setCountryCode(e.target.value)} placeholder="+1" className="border-gray-300 border-2 p-2 rounded-md w-20" />
+          <input type="text" id="countryCode" name="countryCode" value={countryCode} onChange={(e) => setCountryCode(e.target.value)} placeholder="+91" className="border-gray-300 border-2 p-2 rounded-md w-20" />
           <input type="tel" id="phone" name="phone" value={phone} onChange={(e) => setPhone(e.target.value)}  placeholder="Phone Number" className="border-gray-300 border-2 p-2 rounded-md flex-1" />
         </div>
       </div>
