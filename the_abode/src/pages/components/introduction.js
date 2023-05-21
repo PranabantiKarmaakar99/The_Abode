@@ -5,9 +5,9 @@ import IMG1 from "./images_home/image9.png";
 
 const Home = () => {
   return (
-    <div id="introduction">
-      <div className="container h-screen mt-14 ">
-        <div className=" h-1/2 bg-green-400 relative">
+    <div id="introduction" >
+      <div className="container h-screen mt-14">
+        <div className=" h-2/3 bg-green-400 relative">
           <Image
             className="h-full object-cover "
             src={IMG1}
@@ -30,7 +30,7 @@ const Home = () => {
         </div>
 
         {/* why abode  */}
-        <div className="  flex flex-col items-center justify-center ">
+        <div className=" h-1/3 flex flex-col items-center justify-center ">
         <div className=" my-5 flex items-center justify-center">
             <h2 className=" flex items-center justify-center  font-semibold text-center">
              Why Us?

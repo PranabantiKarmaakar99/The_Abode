@@ -97,11 +97,16 @@ const footer = () => {
 
 </Link>})}
 
+
+      
+
           
 
 
 
            </div>
+
+           <div className="text-center text-xs pb-10 text-white">Copyright ⓒ {year}| Made by PK</div>
 
           </div>
           </div>
