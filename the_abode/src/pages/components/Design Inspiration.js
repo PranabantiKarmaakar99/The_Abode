@@ -55,36 +55,43 @@ export default class PreviousNextMethods extends Component {
 
         <div>
        <Slider
-            className=" bg-yellow-400 "
+            className="flex items-center justify-center "
             ref={(c) => (this.slider = c)}
             {...settings}
         >
           {IMAGE.map((el,index) => (
-         <div key={index} className="w-4/5 flex items-center justify-center ">
+            <div className="w-full flex items-center justify-center">
+         <div key={index} className="w-full flex items-center justify-center ">
               <Image
                 src={el.image}
                 alt="image"
-                className=" flex items-center justify-center "
+                className=" flex items-center justify-center w-[300px] rounded-md "
               />
+            </div>
+            
             </div> ))}
            
 
           </Slider>
         </div>
-        <div className="flex items-center justify-center absolute z-10 top-48">
+        <div className="flex justify-center items-center ">
+        <div className="flex items-center justify-center  ">
           <button
-            className="button mt-5 flex p-3 mr-auto ml-2 rounded-full opacity-50"
+            className="button mt-5 flex p-1  rounded-full opacity-50"
             onClick={this.previous}
           >
-            <IoIosArrowBack className="text-white font-bold text-2xl" />
+            <IoIosArrowBack className="text-gray-500 font-bold text-2xl " />
           </button>
           <button
-            className="button mt-5   p-3 flex ml-72 rounded-full opacity-50"
+            className="button mt-5   p-1 flex rounded-full opacity-50 "
             onClick={this.next}
           >
-             <IoIosArrowForward className="text-white font-bold text-2xl"/>
+             <IoIosArrowForward className="text-gray-500 font-bold text-2xl"/>
           </button>
         </div>
+
+        </div>
+
 
         </div>
 

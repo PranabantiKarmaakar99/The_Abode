@@ -5,6 +5,17 @@
 @tailwind utilities;
 
 
-#left-button {
+
+/* @layer components  {
+
+    .left-button {
+        margin-left:calc(100vw - 8px)
+    }
+
+
+} */
+
+
+/* .left-button {
     margin-left:calc(100vw - 8px)
-}
+} */

@@ -9,7 +9,8 @@ import Process from "./components/Abode_booking_Process";
 import Abode_booking_Process from "./components/Abode_booking_Process";
 import Testimonial from "./components/Testimonial"
 import Services from "./components/services"
-import Payment_Process from "./components/Payment_Process"
+import Payment_Process from "./components/Payment_Process";
+import Connect from "./components/Connect";
 
 
 export default function Home() {
@@ -28,6 +29,7 @@ export default function Home() {
 <Services />
 <Testimonial />
 {/* <Payment_Process /> */}
+<Connect />
 
 <Footer />
 

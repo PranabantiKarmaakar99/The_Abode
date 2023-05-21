@@ -73,8 +73,8 @@ export default class PreviousNextMethods extends Component {
                   className=" w-2/3 flex items-center justify-center rounded-full "
                 />
                 </div>
-                <div className="w-full flex flex-col items-center justify-center my-5">
-                  <h2 className="text-center text-lg font-semibold">{el.title}</h2>
+                <div className="w-full flex flex-col items-center justify-center mt-20">
+                  <h2 className="text-center text-lg font-semibold ">{el.title}</h2>
                   <h5 className="w-2/3">
                     <div className="text-3xl font-bold text-center my-3">“ </div>
                    <div className="text-center text-sm"> {el.content}</div>
@@ -87,21 +87,24 @@ export default class PreviousNextMethods extends Component {
 
             </Slider> 
           </div>
-          <div className="flex items-center justify-center absolute z-10 top-48">
+          <div className="flex justify-center items-center  ">
+          <div className="flex items-center justify-center text-black absolute top-[350px] ">
             <button
-              className="button mt-5 flex p-3 mr-auto ml-2 rounded-full opacity-50"
+              className="button mt-5 flex p-3 mr-auto  rounded-full opacity-50"
               onClick={this.previous}
             >
-             <IoIosArrowBack />
+             <IoIosArrowBack className="text-gray-500 font-bold text-2xl " />
             </button>
             <button
-              className="button mt-5   p-3 flex  rounded-full opacity-50"
-              id="left-button"
+              className="button mt-5   p-3 flex  rounded-full opacity-50 "
+              
              
               onClick={this.next}
             >
-                <IoIosArrowForward />
+                <IoIosArrowForward className="text-gray-500 font-bold text-2xl "/>
             </button>
+          </div>
+
           </div>
   
           </div>
