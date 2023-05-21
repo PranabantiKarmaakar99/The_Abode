@@ -1,13 +1,13 @@
 import React from 'react';
 import Image from 'next/image';
-import IMG1 from "../../../public/Teamimage/1.png";
-import IMG2 from "../../../public/Teamimage/2.png";
+import IMG1 from "../../../public/Teamimage/1.jpeg";
+import IMG2 from "../../../public/Teamimage/2.jpeg";
 import IMG3 from "../../../public/Teamimage/3.png";
-import IMG4 from "../../../public/Teamimage/4.png";
-import IMG5 from "../../../public/Teamimage/5.png";
+import IMG4 from "../../../public/Teamimage/4.jpeg";
+import IMG5 from "../../../public/Teamimage/5.jpeg";
 import IMG6 from "../../../public/Teamimage/6.png";
-// import IMG7 from "../../../public/Teamimage/7.png";
-// import IMG8 from "../../../public/Teamimage/8.png";
+import IMG7 from "../../../public/Teamimage/7.jpeg";
+import IMG8 from "../../../public/Teamimage/8.jpeg";
 // import IMG9 from "../../../public/Teamimage/9.png";
 // import IMG10 from "../../../public/Teamimage/10.png";
 
@@ -17,16 +17,16 @@ const Team = () => {
     { key:1,image: IMG1, title: "Ar. Mainak Dey", role: "Founder & Partner" },
     { key:2,image: IMG2, title: "Ar. Rakesh Sarkar", role: "Partner" },
     { key:3,image: IMG3, title: "Sujit Ghosh", role: "Partner" },
-    { key:4,image: IMG4, title: "Payel Samanta", role: "Design" },
-    { key:5,image: IMG5, title: "name", role: "designation" },
-    { key:6,image: IMG6, title: "name", role: "designation" },
-    { key:7,image: IMG1, title: "Koushik", role: "Site Engineer" },
-    { key:8,image: IMG2, title: "Toton", role: "Site Engineer" },
+    { key:4,image: IMG4, title: "Payel Samanta", role: "Interior Designer" },
+    { key:5,image: IMG5, title: "Moutuli Bhattacharjee", role: "Interior Designer" },
+    { key:6,image: IMG6, title: "Koushik Jana", role: "Site Supervisor" },
+    { key:7,image: IMG7, title: "Toton Das", role: "Site Supervisor" },
+    { key:8,image: IMG8, title: "Adrija Lahiri", role: "Trainee Architect" },
     
   ];
   return (
 
-    <div className='container h-max flex items-center flex-col mt-20 mb-5'>
+    <div className='container h-max flex items-center flex-col  '>
      <div className='flex  justify-center font-semibold text-lg pt-6 h-1/6 my-5 text-neutral-600 '>Meet Our Team</div>
     <div className='w-4/5 h-3/4 grid grid-cols-2 gap-5'>
 
@@ -37,7 +37,7 @@ const Team = () => {
    
    
    
-   <Image src={el.image} alt="Team member" className='rounded-full p-2 h-[150px] w-[150px]'/>
+   <Image src={el.image} alt="Team member" className='rounded-full object-cover p-2 h-[150px] w-[150px]'/>
 
   
             <p className=" text-gray-700 w-4/5  mb text-md text-center">

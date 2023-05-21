@@ -17,7 +17,7 @@ const Abode_booking_Process = () => {
 
   return (
 
-    <div className="container h-screen flex flex-col items-center justify-center mt-20">
+    <div className="container h-max flex flex-col items-center justify-center mt-5 ">
      <div className=" w-full">
           
           <div className="flex flex-col items-center justify-center  px-2 py-1 font-semibold text-lg mb-6 ">

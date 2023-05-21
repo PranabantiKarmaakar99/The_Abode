@@ -47,7 +47,7 @@ export default class PreviousNextMethods extends Component {
 
 
       return (
-        <div className="h-max w-full relative flex flex-col mt-20 ">
+        <div className="h-max w-full relative flex flex-col  ">
         <div className="h-4/5 ">
           <div className=" my-10 flex items-center justify-center">
             <h2 className=" w-2/3 flex items-center justify-center text-lg font-semibold text-center">

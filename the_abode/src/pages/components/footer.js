@@ -59,9 +59,9 @@ const footer = () => {
     "Restaurant design in kolkata"]
   return (
     <div id="footer">
-      <div className="container h-full">
-        <div className="flex flex-col items-center justify-center   bg-yellow-200 pb-5">
-          <h2 className="my-5"> THE ABODE </h2>
+      <div className="container h-max">
+        <div className="flex flex-col items-center justify-center   bg-yellow-400 pb-5">
+          <h2 className="my-5 text-lg"> THE ABODE </h2>
           <div >
           <ul className='flex items-center justify-center list-none '>
                 <li className='px-2 '>
