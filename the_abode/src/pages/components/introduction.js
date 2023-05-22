@@ -10,7 +10,7 @@ const Home = () => {
       <div className="h-14">
 
       </div>
-        <div className="  bg-green-400 relative">
+        <div className=" h-[420px]  bg-green-400 relative">
           <Image
             className="h-full object-cover "
             src={IMG1}
