@@ -6,7 +6,10 @@ import IMG1 from "./images_home/image9.png";
 const Home = () => {
   return (
     <div id="introduction" >
-      <div className="container h-max mt-14 mb-14">
+      <div className="container h-max  mb-14">
+      <div className="h-14">
+
+      </div>
         <div className="  bg-green-400 relative">
           <Image
             className="h-full object-cover "
