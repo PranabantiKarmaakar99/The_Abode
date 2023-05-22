@@ -9,10 +9,10 @@ const services = () => {
           </h2>
         </div>
         <div className='h-full flex items-center justify-center'>
-    <div className=' w-4/5 grid grid-cols-2 md:grid-cols-3 gap-5 '>
-    <div  className='h-[500px] shadow-lg bg-gray-100 text-left   '>
+    <div className=' w-4/5 grid grid-cols-2 md:grid-cols-3 shadow-md  '>
+    <div  className='h-[500px]  bg-gray-100 text-left   '>
     
-      <ul className='my-14 pl-10 pr-5 gap-2 list-disc'>
+      <ul className='my-14 pl-10 pr-5 list-disc'>
       <li className='font-semibold my-5 text-lg list-none'>  Our Services</li>
       <li>Modular Kitchens</li>
       <li>Modular Wardrobes</li>
@@ -28,7 +28,7 @@ const services = () => {
       </ul>
       
     </div>
-    <div  className='h-[500px] shadow-lg bg-gray-100 text-left  '>
+    <div  className='h-[500px]  bg-gray-100 text-left  '>
     
     <ul className=' my-14  pl-10 pr-5  list-disc '>
     <li className='font-semibold my-2 text-lg list-none'>  Our Warranty</li>

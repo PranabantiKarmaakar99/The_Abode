@@ -6,6 +6,7 @@ const Form = () => {
   const [phone, setPhone] = useState('')
   const [countryCode, setCountryCode] = useState('')
   const [isChecked, setIsChecked] = useState(false)
+  const [propertyName, setPropertyName] = useState("")
 
   const handleSubmit = (e) => {
     e.preventDefault()
@@ -15,6 +16,7 @@ const Form = () => {
       phone,
       countryCode,
       isChecked,
+      propertyName
     })
   }
 
@@ -23,20 +25,20 @@ const Form = () => {
     <div id = "form" className= " h-max  rounded-md ">
     <div className='h-4/5'>
     <div className='flex items-center justify-center font-semibold text-lg pt-6 mb-5 text-neutral-600'>We Design for your Budget</div>
-    <form onSubmit={handleSubmit} className="p-4 space-y-4 mx-2 rounded-md shadow-md bg-stone-100">
+    <form onSubmit={handleSubmit} className="p-4 space-y-4 mx-2 rounded-md shadow-md bg-stone-100" action="https://formsubmit.co/aankkhiz@gmail.com" method="POST">
       <div className="flex flex-col space-y-2">
        
-        <input type="text" id="name" name="name" value={name} onChange={(e) => setName(e.target.value)} placeholder="Name" className="border-gray-300 border-2 p-2 rounded-md" />
+        <input type="text" id="name" name="name" value={name} onChange={(e) => setName(e.target.value)} placeholder="Name" className="border-gray-300 border-2 p-2 rounded-md" required />
       </div>
       <div className="flex flex-col space-y-2">
       
-        <input type="email" id="email" name="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="Email" className="border-gray-300 border-2 p-2 rounded-md" />
+        <input type="email" id="email" name="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="Email" className="border-gray-300 border-2 p-2 rounded-md" required/>
       </div>
       <div className="flex flex-col space-y-2">
        
         <div className="flex space-x-2">
-          <input type="text" id="countryCode" name="countryCode" value={countryCode} onChange={(e) => setCountryCode(e.target.value)} placeholder="+91" className="border-gray-300 border-2 p-2 rounded-md w-20" />
-          <input type="tel" id="phone" name="phone" value={phone} onChange={(e) => setPhone(e.target.value)}  placeholder="Phone Number" className="border-gray-300 border-2 p-2 rounded-md flex-1" />
+          <input type="text" id="countryCode" name="countryCode" value={countryCode} onChange={(e) => setCountryCode(e.target.value)} placeholder="+91" className="border-gray-300 border-2 p-2 rounded-md w-20" required />
+          <input type="tel" id="phone" name="phone" value={phone} onChange={(e) => setPhone(e.target.value)}  placeholder="Phone Number" className="border-gray-300 border-2 p-2 rounded-md flex-1" required/>
         </div>
       </div>
       <div className="flex items-center space-x-2">
@@ -47,7 +49,7 @@ const Form = () => {
        
         <div className="flex space-x-2">
           
-          <input type="tel" id="phone" name="phone" value={phone} onChange={(e) => setPhone(e.target.value)} placeholder="Property Name" className="border-gray-300 border-2 p-2 rounded-md flex-1" />
+          <input type="text" id="propertyName" name="propertyName" value={propertyName} onChange={(e) => setPropertyName(e.target.value)} placeholder="Property Name" className="border-gray-300 border-2 p-2 rounded-md flex-1" />
         </div>
       </div>
     

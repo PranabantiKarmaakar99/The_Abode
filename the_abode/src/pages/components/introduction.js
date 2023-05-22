@@ -10,7 +10,7 @@ const Home = () => {
       <div className="h-14">
 
       </div>
-        <div className=" h-[420px]  bg-green-400 relative">
+        <div className=" h-[450px]  bg-green-400 relative">
           <Image
             className="h-full object-cover "
             src={IMG1}
@@ -26,7 +26,7 @@ const Home = () => {
             </p>
             <div className="mb-4 mt-auto flex items-center w-full justify-center">
               <button className=" w-1/2 rounded-full bg-yellow-400  py-3 text-white align-middle text-sm">
-                START YOUR DESIGN
+              <Link href="#form"> START YOUR DESIGN </Link>
               </button>
             </div>
           </div>
