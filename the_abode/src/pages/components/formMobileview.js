@@ -22,10 +22,13 @@ const Form = () => {
 
   return (
 
-    <div id = "form" className= " h-max  rounded-md ">
-    <div className='h-4/5'>
+    <div id = "form" className= " h-max  rounded-md  md:hidden bg-red-400">
+    <div className='h-full'>
     <div className='flex items-center justify-center font-semibold text-lg pt-6 mb-5 text-neutral-600'>We Design for your Budget</div>
-    <form onSubmit={handleSubmit} className="p-4 space-y-4 mx-2 rounded-md shadow-md bg-stone-100" action="https://formsubmit.co/aankkhiz@gmail.com" method="POST">
+    <form 
+    // onSubmit={handleSubmit} 
+    className="p-4 space-y-4 mx-2 rounded-md shadow-md bg-stone-100"   action="https://formbold.com/s/oPpLb"
+   method="POST" encType="multipart/form-data">
       <div className="flex flex-col space-y-2">
        
         <input type="text" id="name" name="name" value={name} onChange={(e) => setName(e.target.value)} placeholder="Name" className="border-gray-300 border-2 p-2 rounded-md" required />
@@ -56,6 +59,8 @@ const Form = () => {
       <div className='flex flex-col items-center justify-center '>
       <button type="submit" className="bg-yellow-400 text-white py-3 px-4 flex items-center justify-center rounded-full w-full hover:bg-yellow-600">GET FREE QUOTE</button>
       <label htmlFor="isChecked" className=" text-xs w-4/5 text-center mt-3 text-stone-500">By submitting this form you agree to the <span className="text-yellow-500" >privacy policy</span> & <span className="text-yellow-500">terms and conditions</span></label>
+      <div className=" text-xs w-4/5 text-center mt-3 text-red-400 ">Alternatively you can call us at</div>
+      <div className=" align-middle text-base font-semibold "> 9748523583 / 7980205826 </div>
       </div>
     </form>
 

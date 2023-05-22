@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import IMG1 from "../../../public/Teamimage/1.jpeg";
 import IMG2 from "../../../public/Teamimage/2.jpeg";
-import IMG3 from "../../../public/Teamimage/3.png";
+import IMG3 from "../../../public/Teamimage/3.jpeg";
 import IMG4 from "../../../public/Teamimage/4.jpeg";
 import IMG5 from "../../../public/Teamimage/5.jpeg";
 import IMG6 from "../../../public/Teamimage/6.png";
@@ -26,9 +26,9 @@ const Team = () => {
   ];
   return (
 
-    <div className='container h-max flex items-center flex-col  '>
-     <div className='flex  justify-center font-semibold text-lg pt-6 h-1/6 my-5 text-neutral-600 '>Meet Our Team</div>
-    <div className='w-4/5 h-3/4 grid grid-cols-2 gap-5'>
+    <div className=' h-max flex items-center flex-col  '>
+     <div className='flex  justify-center font-semibold text-lg pt-6 h-1/6 my-5 text-black-600 md:text-xl md:mb-10 '>Meet Our Team</div>
+    <div className='w-4/5 h-3/4 grid grid-cols-2 md:grid-cols-4 gap-5'>
 
   
 
@@ -37,7 +37,7 @@ const Team = () => {
    
    
    
-   <Image src={el.image} alt="Team member" className='rounded-full object-cover p-2 h-[150px] w-[150px]'/>
+   <Image src={el.image} alt="Team member" className='rounded-full object-cover p-2 h-[150px] w-[150px] lg:h-[200px] lg:w-[200px]'/>
 
   
             <p className=" text-gray-700 w-4/5  mb text-md text-center">

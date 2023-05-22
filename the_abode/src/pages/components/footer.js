@@ -3,6 +3,8 @@ import { AiOutlineLinkedin } from "react-icons/ai";
 import { AiFillFacebook } from "react-icons/ai";
 import { AiOutlineInstagram } from "react-icons/ai";
 import Link from "next/link";
+import Logo from "./images_home/logo/LOGO - PNG-THE ABODE.png";
+import Image from "next/image";
 
 
 const footer = () => {
@@ -59,9 +61,20 @@ const footer = () => {
     "Restaurant design in kolkata"]
   return (
     <div id="footer">
-      <div className="container h-max">
+      <div className=" h-max">
         <div className="flex flex-col items-center justify-center   bg-yellow-400 pb-5">
-          <h2 className="my-5 text-lg"> THE ABODE </h2>
+          {/* <h2 className="my-5 text-lg md:text-xl"> THE ABODE </h2> */}
+          <div className="flex my-5">
+          {/* <Image
+            className="object-cover overflow-hidden w-8 lg:w-12"
+            src={Logo}
+            alt=""
+          /> */}
+          <div className=" flex items-center md:text-2xl">
+          <Link href="#introduction">  <p className=" px-1 items-center text-gray-600">The <span className="font-semibold ">ABODE</span></p></Link>
+
+          </div>
+        </div>
           <div >
           <ul className='flex items-center justify-center list-none '>
                 <li className='px-2 '>
@@ -71,7 +84,7 @@ const footer = () => {
                   </a>
                 </li>
                 <li className='px-2 '>
-                  <a href="https://facebbok.com" target="_blank">
+                  <a href="https://facebook.com" target="_blank">
                     <AiFillFacebook />
                   </a>
                 </li>
@@ -85,13 +98,13 @@ const footer = () => {
           </div>
 
           <div  className='bg-gray-400'>
-           <div className='grid grid-cols-3 gap-1 mx-5 py-5'>
+           <div className='grid grid-cols-3 gap-1 mx-5 py-5 place-items-center '>
 
            {LinkTags.map((el,index)=>{ return <Link href="#introduction" key={index}
-           className =" text-xs text-white px-2"
+           className =" text-xs text-white text-left px-2"
            >
 
-           <ul> <li className='list-disc'>{el}</li> </ul>
+           <ul> <li className='list-disc text-left list-outside'>{el}</li> </ul>
 
 
 
@@ -106,7 +119,7 @@ const footer = () => {
 
            </div>
 
-           <div className="text-center text-xs pb-10 text-white">Copyright ⓒ {year}| Made by PK</div>
+           <div className="text-center text-xs py-14 text-white">Copyright ⓒ {year} The ABODE. All Rights Reserved  |  <a href="https://portfolio-icj5-pranabantikarmaakar99.vercel.app/" target="_blank">Powered by PK</a></div>
 
           </div>
           </div>

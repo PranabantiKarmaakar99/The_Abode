@@ -42,7 +42,7 @@ export default class PreviousNextMethods extends Component {
       infinite: true,
       arrows: false,
       speed: 500,
-      slidesToShow: 1,
+      slidesToShow:3 ,
       slidesToScroll: 1,
     };
 
@@ -65,14 +65,14 @@ export default class PreviousNextMethods extends Component {
       <div className="h-max relative flex flex-col mt-20 ">
       <div className="h-4/5 ">
         <div className=" mt-1 mb-4">
-          <h2 className="flex items-center justify-center text-lg font-semibold">
+          <h2 className="flex items-center justify-center text-xl mb-10 mt-14 font-semibold">
             Design Inspiration
           </h2>
         </div>
 
-        <div>
+        <div className="flex items-center justify-center">
        <Slider
-            className="flex items-center justify-center "
+            className="w-4/5 flex items-center justify-center "
             ref={(c) => (this.slider = c)}
             {...settings}
         >

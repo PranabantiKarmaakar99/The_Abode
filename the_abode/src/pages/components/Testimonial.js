@@ -50,7 +50,7 @@ export default class PreviousNextMethods extends Component {
         <div className="h-max w-full relative flex flex-col  ">
         <div className="h-4/5 ">
           <div className=" my-10 flex items-center justify-center">
-            <h2 className=" w-2/3 flex items-center justify-center text-lg font-semibold text-center">
+            <h2 className=" w-2/3 flex items-center justify-center text-lg font-semibold text-center md:text-xl md:mt-14 md:mb-10">
              Straight from our Clients
             </h2>
           </div>
@@ -70,7 +70,7 @@ export default class PreviousNextMethods extends Component {
                 <Image
                   src={el.image}
                   alt="image"
-                  className=" w-2/3 flex items-center justify-center rounded-full "
+                  className=" w-2/3 md:w-[450px] flex items-center justify-center rounded-full "
                 />
                 </div>
                 <div className="w-full flex flex-col items-center justify-center mt-20">
@@ -88,7 +88,7 @@ export default class PreviousNextMethods extends Component {
             </Slider> 
           </div>
           <div className="flex justify-center items-center  ">
-          <div className="flex items-center justify-center text-black absolute top-[350px] ">
+          <div className="flex items-center justify-center text-black absolute top-[350px] md:top-[650px] ">
             <button
               className="button mt-5 flex p-3 mr-auto  rounded-full opacity-50"
               onClick={this.previous}
