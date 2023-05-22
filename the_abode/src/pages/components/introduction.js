@@ -19,7 +19,7 @@ const Home = () => {
           />
           <div className="absolute inset-0 bg-gradient-to-b from-black to-transparent "></div>
           <div className="absolute top-0 left-0 right-0 bottom-0 flex flex-col items-center justify-center">
-          <div className="flex gap-6 mx-10 lg:gap-[360px] ">
+          <div className="flex items-center justify-center mx-10 lg:gap-[360px] ">
             <p className="text-base text-white w-4/5 md:w-[420px]  mt-7 md:mt-14 md:text-lg lg:text-2xl lg:font-semibold text-center ">
               We are your{" "}
               <span className="text-red-500">interior design partner</span> who
