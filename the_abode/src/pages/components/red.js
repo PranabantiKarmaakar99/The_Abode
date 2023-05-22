@@ -1,6 +1,6 @@
 import React, { useState }  from 'react'
 
-const red = () => {
+const Red = () => {
 
     const [name, setName] = useState('')
     const [email, setEmail] = useState('')
@@ -9,7 +9,7 @@ const red = () => {
     const [isChecked, setIsChecked] = useState(false)
     const [propertyName, setPropertyName] = useState("")
 
-    
+
   return (
     <div className=' h-[700px] my-20 flex flex-col w-full items-center justify-center  bg-stone-100" '>
      <div className='flex items-center justify-center font-semibold text-lg pt-6 mb-5 text-neutral-600'>We Design for your Budget</div>
@@ -66,4 +66,4 @@ const red = () => {
   )
 }
 
-export default red
+export default Red
