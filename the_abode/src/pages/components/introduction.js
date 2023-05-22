@@ -40,7 +40,7 @@ const Home = () => {
             </h2>
 
             </div>
-          <div className=" mx-6 h-[175px] rounded-lg my-auto grid grid-cols-3 text-sm gap-1  drop-shadow">
+          <div className=" mx-6 h-[200px] rounded-lg my-auto grid grid-cols-3 text-sm gap-1  drop-shadow">
             <div className=" p-1 text-center flex items-center justify-center  bg-stone-200 text-stone-400 ">60+ <br></br> Happy Homes</div>
             <div className=" p-1 text-center flex items-center justify-center    bg-stone-300 text-stone-600 ">Best in Class Design</div>
             <div className=" p-1 text-center flex items-center justify-center  bg-stone-200 text-black-400">Best Quality Assured</div>
