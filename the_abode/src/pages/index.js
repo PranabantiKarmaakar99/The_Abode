@@ -1,7 +1,7 @@
 import Navbar from "./components/navbar";
 import Introduction from "./components/introduction";
 import Footer from "./components/footer";
-import Form from "./components/form";
+import Form from "./components/formMobileview";
 
 import Design from "./components/Design Inspiration"
 import Teammembers from "./components/Teammembers";
@@ -11,6 +11,8 @@ import Testimonial from "./components/Testimonial"
 import Services from "./components/services"
 import Payment_Process from "./components/Payment_Process";
 import Connect from "./components/Connect";
+
+import Design2 from "./components/Design Inspiration2"
 
 
 export default function Home() {
@@ -24,7 +26,9 @@ export default function Home() {
 
 <Abode_booking_Process />
 
-<Design />
+<div className=" md:hidden"> <Design /></div>
+<div className="hidden md:block"><Design2  /></div>
+
 
 <Services />
 <Testimonial />
