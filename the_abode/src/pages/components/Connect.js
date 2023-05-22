@@ -16,7 +16,7 @@ const Connect = () => {
    </div>
  
    <div className='flex'> &nbsp;
-   is </div>
+   is &nbsp; </div>
 
    <div className='flex'>  just a{" "} &nbsp; 
    <span className="text-red-500">

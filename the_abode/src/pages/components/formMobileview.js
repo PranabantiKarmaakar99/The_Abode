@@ -22,7 +22,7 @@ const Form = () => {
 
   return (
 
-    <div id = "form" className= " h-max  rounded-md  md:hidden bg-red-400">
+    <div id = "form" className= " h-max  rounded-md  md:hidden">
     <div className='h-full'>
     <div className='flex items-center justify-center font-semibold text-lg pt-6 mb-5 text-neutral-600'>We Design for your Budget</div>
     <form 
