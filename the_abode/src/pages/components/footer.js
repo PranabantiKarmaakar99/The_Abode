@@ -2,6 +2,7 @@ import React from 'react';
 import { AiOutlineLinkedin } from "react-icons/ai";
 import { AiFillFacebook } from "react-icons/ai";
 import { AiOutlineInstagram } from "react-icons/ai";
+import { AiFillYoutube } from "react-icons/ai";
 import Link from "next/link";
 import Logo from "./images_home/logo/LOGO - PNG-THE ABODE.png";
 import Image from "next/image";
@@ -78,9 +79,9 @@ const footer = () => {
           <div >
           <ul className='flex items-center justify-center list-none '>
                 <li className='px-2 '>
-                  <a href="https://linkedin.com" target="_blank">
+                  <a href="https://www.youtube.com/@abodeinterior" target="_blank">
                     {" "}
-                    <AiOutlineLinkedin />
+                    <AiFillYoutube />
                   </a>
                 </li>
                 <li className='px-2 '>
@@ -94,6 +95,15 @@ const footer = () => {
                   </a>
                 </li>
                 </ul>
+
+
+              </div>
+
+              <div> 
+              <button className="rounded-full bg-gray-300 px-5 py-3 lg:py-3 lg:text-base  mt-5 text-white align-middle text-xs ">
+         <Link href="https://sites.google.com/yourabode.in/theabode/home" target="_blank"> TEAM VIEW  </Link>
+        </button>
+
               </div>
           </div>
 
@@ -119,7 +129,7 @@ const footer = () => {
 
            </div>
 
-           <div className="text-center text-xs py-14 text-white">Copyright ⓒ {year} The ABODE. All Rights Reserved  |  <a href="https://portfolio-icj5-pranabantikarmaakar99.vercel.app/" target="_blank">Powered by PK</a></div>
+           <div className="text-center text-xs mx-5 py-14 text-white">Copyright ⓒ {year} The ABODE. All Rights Reserved  |  <a href="https://portfolio-icj5-pranabantikarmaakar99.vercel.app/" target="_blank">Powered by PK</a></div>
 
           </div>
           </div>
